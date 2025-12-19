@@ -1,4 +1,6 @@
 <?php
+//put API folder to htdocs in xampp
+
 class Connection {
     private $host = "localhost";
     private $db_name = "timeminder";
@@ -19,5 +21,6 @@ class Connection {
         return $this->conn;
     }
 }
+
 
 ?>
